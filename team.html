@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - Mighty Mufulira Wanderers FC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <!-- Slideshow Section -->
+        <div class="slideshow">
+            <div class="slides">
+                <img src="mighty.jpg" alt="Mufulira Wanderers Stadium" loading="lazy">
+                <img src="team2.jpg" alt="Mufulira Wanderers Team Celebration" loading="lazy">
+                <img src="team.jpg" alt="Mufulira Wanderers Team Photo" loading="lazy">
+                <img src="bench2.jpg" alt="Mufulira Wanderers Team Photo" loading="lazy">
+                <img src="coach.jpg" alt="Mufulira Wanderers Team Photo" loading="lazy">
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="Mufulira_Wanderers.png" alt="Mufulira Wanderers Logo" loading="lazy">
+                    <h1>Mufulira Wanderers FC</h1>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="MufuliraWanderers.html" class="active">Home</a></li>
+                    <li><a href="fixtures.html">Fixtures</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Hero Text Section -->
+        <div class="hero-text">
+            <h2>Mighty Mufulira Wanderers</h2>
+            <p>Mufulira Wanderers F. C. Zambia</p>
+            
+        </div>
+    </header>
+
+    <main>
+        <!-- Team Section -->
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="player1.jpg" alt="Player 1">
+                    <h3>Player 1</h3>
+                    <p>Position: Striker</p>
+                </div>
+                <div class="team-member">
+                    <img src="player2.jpg" alt="Player 2">
+                    <h3>Player 2</h3>
+                    <p>Position: Midfielder</p>
+                </div>
+                <div class="team-member">
+                    <img src="player3.jpg" alt="Player 3">
+                    <h3>Player 3</h3>
+                    <p>Position: Defender</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <div class="slides">
+                    <img src="bench2.jpg" alt="Gallery Image 1" class="slide">
+                    <img src="coach.jpg" alt="Gallery Image 2" class="slide">
+                    <img src="p_060333.jpg" alt="Gallery Image 3" class="slide">
+                    <img src="o_060325.jpg" alt="Gallery Image 4" class="slide">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mighty Mufulira Wanderers FC</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mufulira Wanderers FC - Shop</title>
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Slideshow Section -->
+        <div class="slideshow">
+            <div class="slides">
+                <img src="mighty.jpg" alt="Mufulira Wanderers Stadium" loading="lazy">
+                <img src="team2.jpg" alt="Mufulira Wanderers Team Celebration" loading="lazy">
+                <img src="team.jpg" alt="Mufulira Wanderers Team Photo" loading="lazy">
+                <img src="bench2.jpg" alt="Mufulira Wanderers Team Photo" loading="lazy">
+                <img src="coach.jpg" alt="Mufulira Wanderers Team Photo" loading="lazy">
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="Mufulira_Wanderers.png" alt="Mufulira Wanderers Logo" loading="lazy">
+                    <h1>Mufulira Wanderers FC</h1>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="MufuliraWanderers.html" class="active">Home</a></li>
+                    <li><a href="fixtures.html">Fixtures</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Hero Text Section -->
+        <div class="hero-text">
+            <h2>Mighty Mufulira Wanderers</h2>
+            <p>Mufulira Wanderers F. C. Zambia</p>
+            
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Shop Section -->
+        <section id="shop">
+            <h2>Official Merchandise</h2>
+            <div class="shop-grid">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="jersey.jpg" alt="Mufulira Wanderers Jersey" loading="lazy">
+                    <h3>Home Jersey</h3>
+                    <p class="price">K300.00</p>
+                    <button class="add-to-cart" data-product="Home Jersey" data-price="30.00">Add to Cart</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product">
+                    <img src="scurf.jpeg" alt="Mufulira Wanderers Scarf" loading="lazy">
+                    <h3>Team Scarf</h3>
+                    <p class="price">K150.00</p>
+                    <button class="add-to-cart" data-product="Team Scarf" data-price="15.00">Add to Cart</button>
+                </div>
+                <!-- Product 3 -->
+                <div class="product">
+                    <img src="cap.jpg" alt="Mufulira Wanderers Cap" loading="lazy">
+                    <h3>Official Cap</h3>
+                    <p class="price">K100.00</p>
+                    <button class="add-to-cart" data-product="Official Cap" data-price="20.00">Add to Cart</button>
+                </div>
+                <!-- Product 4 -->
+                <div class="product">
+                    <img src="mug.jpg" alt="Mufulira Wanderers Mug" loading="lazy">
+                    <h3>Club Mug</h3>
+                    <p class="price">K10.00</p>
+                    <button class="add-to-cart" data-product="Club Mug" data-price="10.00">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Section -->
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                <p>Total: <span id="total-price">$0.00</span></p>
+                <button class="checkout-button">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Mufulira Wanderers FC</p>
+        <p>Sponsored by <b>Mopani Copper Mines</b></p>
+        <div class="logo2">
+            <img src="download.png" alt="Mufulira Wanderers Logo">
+        </div>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
